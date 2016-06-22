@@ -8,8 +8,9 @@ global.expect = chai.expect;
 global.assert = chai.assert;
 
 
+// @TODO: finish this test, right now the purpose of this test is getting a change to debug interactive
 describe('UNIT: runner', function() {
-    it('losi!', function (done) {
+    it('los', function (done) {
         this.timeout(1000 * 10);
 
         lib.runner.run({
